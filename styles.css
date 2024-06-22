@@ -1,0 +1,171 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: #606060;
+    padding: 20px;
+    border-radius: 15px;
+    width: 450px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.content-container {
+    background-color: #F4F0F0;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-text {
+    margin: 10px 0;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 10px;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    color: black;
+}
+
+.input-field {
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #969494;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-right: 5px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.add-row {
+    background-color: #45A834;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 90%;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+
+.reset {
+    background-color: #DD1628;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 90%;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+
+.calculate {
+    background-color: #1897FF;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 50%;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+
+.calculate:hover {
+    background-color: darkblue;
+}
+
+.gpa-result p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: black;
+}
+
+.gpa-value {
+    font-size: 24px;
+    color: #1897FF;
+    font-weight: bold;
+}
+
+.gpa-word {
+    font-weight: bold;
+    color: #1897FF;
+}
+
+.error-messages {
+    margin-top: 10px;
+    font-size: 16px;
+    color: red;
+}
+
+.footnote {
+    margin-top: auto;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.footnote p, .footnote ul {
+    margin: 5px;
+}
+
+.footnote ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footnote li {
+    margin: 3px 0;
+}
+
+.removeRow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+    padding: 0;
+    box-shadow: none;
+}
